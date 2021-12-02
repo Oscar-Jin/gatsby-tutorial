@@ -1,15 +1,15 @@
 // ───────────────────────────────────────────────────────────── import ───┐
 import * as React from "react";
-import Layout from "../components/layout.js";
+import Layout from "../components/layout";
 
 // ───────────────────────────────────────────────────────────── define ───┐
-const IndexPage = () => {
+const AboutPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>Hi there! I am Oscar Jin</p>
+    <Layout pageTitle="About Me">
+      <p>I am Oscar Jin.</p>
     </Layout>
   );
 };
 
 // ───────────────────────────────────────────────────────────── export ───┐
-export default IndexPage;
+export default AboutPage;
